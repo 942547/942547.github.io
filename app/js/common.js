@@ -14,8 +14,8 @@ $(function() {
 		{
 			"position": "bottom",
 			"content": [
-			"<a class='fa fa-phone' aria-hidden='true' href='#/'></a>",
-			"<a class='fa fa-envelope' aria-hidden='true' href='#/'></a>",
+			"<a class='fa fa-phone' aria-hidden='true' href='tel:+74722000000'></a>",
+			"<a class='fa fa-envelope' aria-hidden='true' href='mailto:info@trofey31.ru'></a>",
 			"<a class='fa fa-vk' aria-hidden='true' href='#/'></a>",
 			]
 		}

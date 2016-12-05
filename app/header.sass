@@ -1,7 +1,6 @@
 @import "bourbon"
 @import "sass/vars"
 @import "sass/reset"
-@import "sass/base"
 @import "sass/size"
 @import "libs/superfish/css/superfish.css"
 @import "libs/superfish/css/megafish.css"
@@ -10,6 +9,52 @@
 @import "libs/swiper/css/swiper.min.css"
 @import "libs/popup/css/magnific-popup.css"
 @import "libs/FontAwesome/css/font-awesome.css"
+@import "sass/base"
 
 // THEME
+body
+	font-family: "Nikodecs"
 
+.nav_theme
+	margin-top: 14px
+	background-color: #fff
+	box-shadow: 0 0 4px -1px #000
+
+.logo_theme
+	z-index: 100
+	position: relative
+
+.logo__bg_theme
+	height: 100px
+	width: auto
+	margin: -24px 0 -32px
+
+.logo__content_theme
+	// background-color: red
+	position: absolute
+	top: 0
+	width: 100%
+	text-align: center
+
+.logo__img_theme
+	height: 40px
+	width: auto
+	margin-top: -9px
+
+.logo__text_theme
+	margin-top: -13px
+	font-size: 20px
+	display: block
+	font-family: "LidiaMedium"
+
+.menu_theme
+	li
+		&:active,
+		&.active,
+		&.sfHover
+			border-color: $accent
+	>li
+		border-bottom: 4px solid #fff
+		a
+			padding-top: 13px
+			padding-bottom: 7px

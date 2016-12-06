@@ -64,9 +64,21 @@ body
 			padding-bottom: 8px
 
 #contacts
-	background: #eee url(https://wallpaperscraft.com/image/desk_restaurant_wine_glasses_plates_flowers_roses_80713_1920x1080.jpg) no-repeat center
+	background: #eee url(img/contacts__bg.jpg) no-repeat center
 	background-size: cover
 	color: #fff
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		height: 100%
+		width: 100%
+		background-color: #000
+		opacity: 0.3
+	a
+		color: inherit
 
 .footer
 	background-color: #333

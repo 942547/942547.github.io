@@ -14,7 +14,7 @@ $(function() {
 		{
 			"position": "bottom",
 			"content": [
-			"<a class='fa fa-phone' aria-hidden='true' href='tel:+74722000000'></a>",
+			"<a class='fa fa-phone' aria-hidden='true' href='tel:+74722569991'></a>",
 			"<a class='fa fa-envelope' aria-hidden='true' href='mailto:info@trofey31.ru'></a>",
 			"<a class='fa fa-vk' aria-hidden='true' href='#/'></a>",
 			]
@@ -44,7 +44,7 @@ $(function() {
 		paginationClickable: true,
 		// spaceBetween: 50,
 		centeredSlides: true,
-		autoplay: 7000,
+		// autoplay: 7000,
 		loop: true,
 		keyboardControl: true,
 		autoplayDisableOnInteraction: false,
@@ -61,7 +61,7 @@ $(function() {
 		var id  = $(this).attr('href'),
 
 		// находим высоту, на которой расположен блок
-		top = $(id).offset().top-56;
+		top = $(id).offset().top-67;
 
 		// анимируем переход к блоку, время: 800 мс
 		$('body,html').animate({scrollTop: top}, 800);

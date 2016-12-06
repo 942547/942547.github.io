@@ -114,9 +114,9 @@ gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], func
 gulp.task('deploy', function() {
 
 	var conn = ftp.create({
-		host:      'hostname.com',
-		user:      'username',
-		password:  'userpassword',
+		host:      'frog.hostink.ru',
+		user:      'w1397',
+		password:  'b684f337',
 		parallel:  10,
 		log: gutil.log
 	});
@@ -126,7 +126,7 @@ gulp.task('deploy', function() {
 	'dist/.htaccess',
 	];
 	return gulp.src(globs, {buffer: false})
-	.pipe(conn.dest('/path/to/folder/on/server'));
+	.pipe(conn.dest('/public_html'));
 
 });
 

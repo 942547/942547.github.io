@@ -205,8 +205,7 @@ a[href^="tel:"]
 		top: -47px
 		width: 80px
 	&:before
-		display: block
-		height: 18px
+		// display: block
 		width: 18px
 		right: 15px
 		top: -30px
@@ -218,6 +217,8 @@ a[href^="tel:"]
 			z-index: 1
 		&::after
 			content: attr(data-title)
+		&:before
+			height: 18px
 
 
 // SWIPER

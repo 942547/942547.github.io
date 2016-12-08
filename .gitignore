@@ -1,4 +1,5 @@
-/node_modules/
-/app/css/
 *sublime*
+/app/css/
+/dist/
+/node_modules/
 readme.md

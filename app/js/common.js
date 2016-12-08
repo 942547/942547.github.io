@@ -115,7 +115,7 @@ $(function() {
 			var scroll = $(window).scrollTop();
 			var id = $(el).attr('id');
 			if( scroll > top && scroll < bottom){
-				$('li.active').removeClass('active');
+				$('li.active').removeClass('active').removeClass('sfHover');
 				$('a[href="#'+id+'"]').parent('li').addClass('active');
 
 			}

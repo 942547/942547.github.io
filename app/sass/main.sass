@@ -8,5 +8,53 @@
 #menu
 	background: #eee url(../img/menu__bg.jpg)
 
+.title
+	position: relative
+	text-align: center
+	margin-top: -35px
+	img
+		height: 110px
+		width: auto
+	.title__text
+		position: absolute
+		top: 35px
+		left: 0
+		text-outline: 
+		width: 100%
+		text-align: center
+
+.buttons-panel,
+.items-panel
+	padding: 20px
+	background-color: #fff
+	border-radius: 3px
+
+
+
+
+
+
+#contacts
+	background: #eee url(../img/contacts__bg.jpg) no-repeat center
+	background-size: cover
+	color: #fff
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		height: 100%
+		width: 100%
+		background-color: #000
+		opacity: 0.3
+	a
+		color: inherit
+
+.footer
+	background-color: #333
+	color: #fff
+
+
 
 @import "media"

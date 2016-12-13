@@ -226,7 +226,7 @@
 			<img src="img/logo__bg_theme.svg" alt="alt">
 			<div class="title__text"><h2 class="h2">Меню</h2></div>
 		</div>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
 					<aside class="buttons-panel">
@@ -258,7 +258,7 @@
 
 						<div class="h3">Сортировка</div>
 						<div class="button-group sort-by-button-group">
-							<button class="btn btn_isotope is-checked" data-sort-value="original-order">По умолчанию</button><button class="btn btn_isotope" data-sort-value="item__price">Цена</button><button class="btn btn_isotope" data-sort-value="item_name">Название</button>
+							<button class="btn btn_isotope is-checked" data-sort-value="original-order">По умолчанию</button><button class="btn btn_isotope" data-sort-value="item__price">Цена</button><button class="btn btn_isotope" data-sort-value="item__name">Название</button>
 							<!-- <button class="btn" data-sort-value="symbol">symbol</button> -->
 							<!-- <button class="btn" data-sort-value="weight">weight</button> -->
 							<!-- <button class="btn" data-sort-value="category">Категории</button> -->
@@ -270,31 +270,75 @@
 						<div class="grid">
 							
 							<div class="item entrees" data-category="entrees">
-								<h3 class="h3 item_name">Борщ</h3>
-								<a href="#" class="item__img" style='background: url(img/meals/borshch.png) no-repeat center; background-size: contain;'></a>
-								<div class="grams">500</div>
-								<div class="item_price">500</div>
+								<h3 class="h3 item__name">Солянка</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/solyanka.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">140</div>
 							</div>
 							
 							<div class="item entrees" data-category="entrees">
-								<h3 class="h3 item_name">Окрошка</h3>
+								<h3 class="h3 item__name">Бульон с яйцом и курицей</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/bulon-s-yaytsom-i-kuritsey.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">60</div>
+							</div>
+							
+							<div class="item entrees" data-category="entrees">
+								<h3 class="h3 item__name">Окрошка мясная на кефире</h3>
 								<a href="#" class="item__img" style='background: url(img/meals/okroshka.png) no-repeat center; background-size: contain;'></a>
-								<div class="grams">500</div>
-								<div class="item_price">500</div>
+								<div class="item__price">140</div>
+							</div>
+							
+							<div class="item entrees" data-category="entrees">
+								<h3 class="h3 item__name">Борщ украинский</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/borshch.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">95</div>
+							</div>
+							
+							<div class="item entrees" data-category="entrees">
+								<h3 class="h3 item__name">Суп лапша домашняя</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/sup-lapsha-domashnyaya.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">90</div>
+							</div>
+							
+							<div class="item entrees" data-category="entrees">
+								<h3 class="h3 item__name">Суп пюре с грибами</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/sup-pyure-s-gribami.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">190</div>
+							</div>
+							
+							<div class="item entrees" data-category="entrees">
+								<h3 class="h3 item__name">Суп пюре с креветками</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/sup-pyure-s-krevetkami.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">300</div>
 							</div>
 							
 							<div class="item goryachiye-blyuda" data-category="goryachiye-blyuda">
-								<h3 class="h3 item_name">Куриные крылья</h3>
-								<a href="#" class="item__img" style='background: url(img/meals/kurinyye-krylya.png) no-repeat center; background-size: contain;'></a>
-								<div class="grams">500</div>
-								<div class="item_price">500</div>
+								<h3 class="h3 item__name">Дары моря</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/dary-morya.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">300</div>
 							</div>
 							
-							<div class="item entrees" data-category="entrees">
-								<h3 class="h3 item_name">Борщ</h3>
-								<a href="#" class="item__img" style='background: url(img/meals/borshch.png) no-repeat center; background-size: contain;'></a>
-								<div class="grams">500</div>
-								<div class="item_price">500</div>
+							<div class="item goryachiye-blyuda" data-category="goryachiye-blyuda">
+								<h3 class="h3 item__name">Горбуша запеченная под овощами</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/gorbusha-zapechennaya-pod-ovoshchami.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">220</div>
+							</div>
+							
+							<div class="item goryachiye-blyuda" data-category="goryachiye-blyuda">
+								<h3 class="h3 item__name">Котлета по-киевски</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/kotleta-po-kiyevski.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">190</div>
+							</div>
+							
+							<div class="item goryachiye-blyuda" data-category="goryachiye-blyuda">
+								<h3 class="h3 item__name">Свиная отбивная</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/svinaya-otbivnaya.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">250</div>
+							</div>
+							
+							<div class="item goryachiye-blyuda" data-category="goryachiye-blyuda">
+								<h3 class="h3 item__name">Куриные крылья</h3>
+								<a href="#" class="item__img" style='background: url(img/meals/kurinyye-krylya.png) no-repeat center; background-size: contain;'></a>
+								<div class="item__price">500</div>
 							</div>
 					</div>
 				</div>

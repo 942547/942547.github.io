@@ -128,9 +128,9 @@ $(function() {
 			itemSelector: '.item',
 			layoutMode: 'fitRows',
 			getSortData: {
-				item_name: '.item_name',
+				item__name: '.item__name',
 				// symbol: '.symbol',
-				item_price: '.item_price parseInt',
+				item__price: '.item__price parseInt',
 				category: '[data-category]',
 				weight: function( itemElem ) {
 					var weight = $( itemElem ).find('.weight').text();
@@ -143,13 +143,13 @@ $(function() {
 		var filterFns = {/*
 			// show if number is greater than 70
 			numberGreaterThan70: function() {
-				var item_price = $(this).find('.item_price').text();
-				return parseInt( item_price, 10 ) > 70;
+				var item__price = $(this).find('.item__price').text();
+				return parseInt( item__price, 10 ) > 70;
 			},
-			// show if item_name ends with -ium
+			// show if item__name ends with -ium
 			ium: function() {
-				var item_name = $(this).find('.item_name').text();
-				return item_name.match( /ium$/ );
+				var item__name = $(this).find('.item__name').text();
+				return item__name.match( /ium$/ );
 			}
 		*/};
 

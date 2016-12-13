@@ -58,7 +58,8 @@ gulp.task('libs', function() {
 		'app/libs/mmenu/js/jquery.mmenu.all.min.js',
 		'app/libs/mmenu/js/jquery.mmenu.dragopen.min.js',
 		'app/libs/swiper/js/swiper.jquery.js',
-		'app/libs/popup/js/jquery.magnific-popup.min.js'
+		'app/libs/popup/js/jquery.magnific-popup.min.js',
+		'app/libs/isotope/isotope.pkgd.min.js'
 		])
 		.pipe(concat('libs.min.js'))
 		.pipe(uglify())

@@ -29,6 +29,46 @@
 	background-color: #fff
 	border-radius: 3px
 
+.btn_isotope
+	margin: 0
+
+.item
+	width: 32.2%
+	height: 300px
+	text-align: center
+	background: /* url(../img/item__bg.jpg) */ #eee
+	margin: 0.5%
+
+.item__title
+	background-color: $accent
+	color: #fff
+
+.item__img
+	display: block
+	height: 200px
+	margin: 10px 50px/*  10px 10px */
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		bottom: 30px
+		right: -35px
+		height: 100px
+		width: 30px
+		background: url(../img/meals/spoon.png) no-repeat bottom right
+		// background: url(../img/meals/dishcloth.png) no-repeat top center
+		background-size: contain
+	&:before
+		content: ''
+		position: absolute
+		bottom: 30px
+		left: -35px
+		height: 130px
+		width: 40px
+		// background: url(../img/meals/spoon.png) no-repeat top center
+		background: url(../img/meals/dishcloth.png) no-repeat bottom left
+		background-size: contain
+
 
 
 

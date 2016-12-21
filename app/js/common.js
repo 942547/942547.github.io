@@ -186,5 +186,11 @@ $(function() {
 	// The End Isotope
 
 
+	$('.horizon-swiper').horizonSwiper({
+		// dots: true,
+		arrows: false,
+	});
+
+
 
 });

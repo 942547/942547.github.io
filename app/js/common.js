@@ -191,7 +191,7 @@ $(function() {
 
 	$('.horizon-swiper').horizonSwiper({
 		// dots: true,
-		arrows: false,
+		// arrows: true,
 	});
 
 

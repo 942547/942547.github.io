@@ -1,5 +1,8 @@
 $(function() {
 
+	// Запретить выделение и перетаскивание
+	document.onselectstart=new Function("return false");document.ondragstart=new Function("return false");
+
 	// Инициализация SF-MENU
 	$(".sf-menu").superfish({
 		delay: 200,

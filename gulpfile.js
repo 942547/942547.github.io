@@ -67,6 +67,13 @@ gulp.task('libs', function() {
 		.pipe(gulp.dest('app/js'));
 });
 
+gulp.task('txt', function() {
+	return gulp.src([
+		'app/*.txt'
+		])
+		.pipe(gulp.dest('dist'));
+});
+
 gulp.task('watch', ['sass', 'libs', 'browser-sync'], function() {
 	gulp.watch('app/header.sass', ['headersass']);
 	gulp.watch('app/sass/**/*.sass', ['sass']);
@@ -96,7 +103,7 @@ gulp.task('buildhtml', function() {
 
 gulp.task('removedist', function() { return del.sync('dist'); });
 
-gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], function() {
+gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs', 'txt'], function() {
 
 	var buildCss = gulp.src([
 		'app/css/fonts.min.css',

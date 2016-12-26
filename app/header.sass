@@ -69,6 +69,21 @@ body
 			padding-top: 13px
 			padding-bottom: 8px
 
+.h1__desc,
+.h2__desc,
+.h3__desc
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		display: block
+		left: 0
+		top: -0.6em
+		width: 100%
+		height: 10px
+		background: url(../img/logo__line_light.svg) no-repeat center
+		background-size: content
+
 .zoom-anim-dialog
 	background: #eee url(img/nav__bg.jpg)
 
